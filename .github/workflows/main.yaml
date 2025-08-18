@@ -3,7 +3,7 @@ name: Build and push Docker Image to ECR and deplot to AWS
 on:
   push:
     branches: 
-      - main
+      - master
 jobs:
   build-and-push-ecr-image:
     name: Build and push to Amazon ECR
