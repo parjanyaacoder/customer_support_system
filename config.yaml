@@ -1,0 +1,15 @@
+astra_db:
+  collection_name: "PRODUCT_REVIEWS"
+
+embedding_model:
+  provider: "google"
+  model_name: "models/text-embedding-004"
+
+retriever:
+  top_k: 3
+
+llm:
+  provider: "google"
+  model_name: "gemini-2.5-flash"
+
+  
